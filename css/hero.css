@@ -1,0 +1,34 @@
+.hero__container {
+    background-image: url(../img/banner-alurageek.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 10% 30px 10%;
+    color: white;
+}
+
+.hero__textos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero__titulo {
+    font-size: 50px;
+}
+
+.hero__parrafo {
+    font-size: 20px;
+}
+
+.hero__button {
+    display: flex;
+}
+
+.hero__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 16px;
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,44 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.form__busqueda {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.busqueda__input {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 20px;
+    color:#A2A2A2;
+    font-weight: 400;
+}
+
+.busqueda__button {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 20px;
+    color:#A2A2A2;
+    font-weight: 400;
+}
+
+.header__login {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 15px 70px;
+    border: 1px solid var(--primary-color);
+}
