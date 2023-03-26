@@ -47,6 +47,32 @@
     height: 250px;
 }
 
+.imagen__container {
+    position: relative;
+    display: inline-block;
+}
+
+.fa-pen, .fa-trash {
+    position: absolute;
+    color: white;
+}
+
+.fa-pen {
+    top:10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.fa-trash {
+    top: 10px;
+    right: 60px;
+    cursor: pointer;
+}
+
+.fa-trash:hover {
+    color: #df2525;
+}
+
 .producto__titulo {
     font-size: 14px;
     font-weight: 500;
