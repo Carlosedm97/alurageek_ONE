@@ -85,6 +85,10 @@
     font-weight: 700;
 }
 
+.producto__descripcion {
+    margin: 0;
+}
+
 .info__producto {
     text-decoration: none;
     color: var(--primary-color);

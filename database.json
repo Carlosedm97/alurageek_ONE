@@ -1,0 +1,18 @@
+{
+  "producto": [
+    {
+      "imagen": "img/stars-wars-2.png",
+      "categoria": "consolas",
+      "nombre": "Figura acción",
+      "precio": "30.000",
+      "descripcion": "Figura de acción de stars wars."
+    },
+    {
+      "imagen": "img/stars-wars-5.png",
+      "categoria": "star wars",
+      "nombre": "Figura acción de Yoda",
+      "precio": "25.000",
+      "descripcion": "Figura de acción de stars wars de Yoda bebé."
+    }
+  ]
+}
