@@ -1,0 +1,52 @@
+.agregar__container {
+    padding: 64px 0;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar {
+    width: 1136px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__container--agregar {
+    width: 559px;
+    padding: 3.5em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.agregar__titulo {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form--agregar {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-auto-columns: 100%;
+}
+
+.form__input--agregar {
+    padding: 18px 25px;
+    border: none;
+}
+
+.form__textarea--agregar {
+    resize: none;
+    padding: 18px 25px;
+    border: none;
+}
+
+.form__button--agregar {
+    padding: 18px 25px;
+    background-color: var(--primary-color);
+    color: #F5F5F5;
+    cursor: pointer;
+    border: none;
+}

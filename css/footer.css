@@ -36,16 +36,12 @@
 }
 
 .form__input {
-    padding-top: 28px;
-    padding-bottom: 7px;
-    padding-left: 12px;
+    padding: 18px 25px;
     border: none;
 }
 
 .form__input--textarea {
-    padding-top: 16px;
-    padding-bottom: 46px;
-    padding-left: 12px;
+    padding: 18px 25px;
     resize: none;
 }
 
