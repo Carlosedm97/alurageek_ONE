@@ -4,8 +4,8 @@ const crearNuevoProducto = (imagen, categoria, nombre, precio, descripcion) => {
   const producto = document.createElement('div');
   producto.classList.add('producto')
 
-  const contenido = `
-      <div class="imagen__container">
+  const contenido = 
+      `<div class="imagen__container">
         <img class="producto__imagen" src="${imagen}" alt="">
         <i class="fa-solid fa-trash"><a href="#"></a></i>
         <i class="fa-sharp fa-solid fa-pen"><a href="#"></a></i>

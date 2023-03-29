@@ -13,6 +13,14 @@
       "nombre": "Figura acción de Yoda",
       "precio": "25.000",
       "descripcion": "Figura de acción de stars wars de Yoda bebé."
+    },
+    {
+      "imagen": "img/stars-wars-5.png",
+      "categoria": "Stars Wars",
+      "nombre": "Figura de acción Vader",
+      "precio": "50000",
+      "descripcion": "Figura de acción del personaje de la pelicula de Stars Wars.",
+      "id": "bf656374-82d4-4d2b-bad8-23b14f3357ef"
     }
   ]
 }

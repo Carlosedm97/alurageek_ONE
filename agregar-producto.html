@@ -36,12 +36,12 @@
       <div class="agregar">
           <div class="form__container--agregar">
             <h1 class="agregar__titulo">Agregar producto</h1>
-            <form action="" class="form--agregar">
-              <input type="text" class="form__input--agregar" placeholder="URL de la imágen">
-              <input type="text" class="form__input--agregar" placeholder="Categoría del producto">
-              <input type="text" class="form__input--agregar" placeholder="Nombre del producto">
-              <input type="text" class="form__input--agregar" placeholder="Precio del producto">
-              <textarea class="form__textarea--agregar" cols="30" rows="5" placeholder="Descripción del producto"></textarea>
+            <form class="form--agregar" data-form>
+              <input type="text" class="form__input--agregar" placeholder="URL de la imágen" data-imagen>
+              <input type="text" class="form__input--agregar" placeholder="Categoría del producto" data-categoria>
+              <input type="text" class="form__input--agregar" placeholder="Nombre del producto" data-nombre>
+              <input type="text" class="form__input--agregar" placeholder="Precio del producto" data-precio>
+              <textarea class="form__textarea--agregar" cols="30" rows="5" placeholder="Descripción del producto" data-descripcion></textarea>
               <button type="submit" class="form__button--agregar">Agregar producto</button>
             </form>
           </div>
@@ -74,5 +74,7 @@
       <p class="copyright__text">Copyright &copy; 2023 <a class="copyright__link" href="https://github.com/Carlosedm97/" target="_blank" rel="noopener">Carlos López</a></p>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="JS/crearProducto.js" type="module"></script>
 </body>
 </html>
