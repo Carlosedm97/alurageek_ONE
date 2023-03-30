@@ -1,26 +1,82 @@
 {
   "producto": [
     {
+      "imagen": "img/star-wars.png",
+      "categoria": "Star Wars",
+      "nombre": "Mug de Stormtrooper",
+      "precio": "30.000 COP",
+      "descripcion": "Mug de Stormtrooper.",
+      "id": "05b43d7f-adb4-4680-8563-51b67f2f2c15"
+    },
+    {
       "imagen": "img/stars-wars-2.png",
-      "categoria": "consolas",
-      "nombre": "Figura acción",
-      "precio": "30.000",
-      "descripcion": "Figura de acción de stars wars."
+      "categoria": "Star Wars",
+      "nombre": "Lego Vader",
+      "precio": "30.000 COP",
+      "descripcion": "Figura de acción de Lego.",
+      "id": "28c3b35a-50c9-4575-8cfc-6c08e369f2cf"
     },
     {
-      "imagen": "img/stars-wars-5.png",
-      "categoria": "star wars",
-      "nombre": "Figura acción de Yoda",
-      "precio": "25.000",
-      "descripcion": "Figura de acción de stars wars de Yoda bebé."
+      "imagen": "img/stars-wars-3.png",
+      "categoria": "Star Wars",
+      "nombre": "Yoda",
+      "precio": "40.000 COP",
+      "descripcion": "Figura de acción de Yoda.",
+      "id": "bd6d1f37-5167-4ee8-aab3-a43ad4c9d614"
     },
     {
-      "imagen": "img/stars-wars-5.png",
-      "categoria": "Stars Wars",
-      "nombre": "Figura de acción Vader",
-      "precio": "50000",
-      "descripcion": "Figura de acción del personaje de la pelicula de Stars Wars.",
-      "id": "bf656374-82d4-4d2b-bad8-23b14f3357ef"
+      "imagen": "img/stars-wars-4.png",
+      "categoria": "Star Wars",
+      "nombre": "Soldado Stormtrooper",
+      "precio": "70.000 COP",
+      "descripcion": "Figura de acción de Star Wars.",
+      "id": "9c179df0-bb0e-4cac-bfd1-fd2f607f5597"
+    },
+    {
+      "imagen": "img/stars-wars-6.png",
+      "categoria": "Star Wars",
+      "nombre": "Vader",
+      "precio": "80.000 COP",
+      "descripcion": "Figura de acción de Vader.",
+      "id": "51ba4940-299c-4ed3-ab04-37ea5023f027"
+    },
+    {
+      "imagen": "img/consola.png",
+      "categoria": "Consolas",
+      "nombre": "Mando de Xbox",
+      "precio": "230.000 COP",
+      "descripcion": "Mando de consola Xbox.",
+      "id": "fae619bd-388d-4a85-837d-946bfaa3f9f8"
+    },
+    {
+      "imagen": "img/consola-2.png",
+      "categoria": "Consolas",
+      "nombre": "Playstation 5",
+      "precio": "3.198.000 COP",
+      "descripcion": "Playstation 5 en color azul + 1 mando.",
+      "id": "7fb17db6-7523-413d-9b4e-521d059be2f4"
+    },
+    {
+      "imagen": "img/consola-3.png",
+      "categoria": "Consolas",
+      "nombre": "Nintendo",
+      "precio": "200.000 COP",
+      "descripcion": "Nintendo de coleción.",
+      "id": "55586a04-7fb6-446d-bc2f-f806e547cc7b"
+    },
+    {
+      "imagen": "img/diverso.png",
+      "categoria": "Diversos",
+      "nombre": "Camiseta de Atari",
+      "precio": "40.000 COP",
+      "descripcion": "Camiseta de Atari.",
+      "id": "fdb3b5d3-fe4a-4011-8936-92cb7f53b7b7"
+    }
+  ],
+  "perfil": [
+    {
+      "usuario": "admin@admin.com",
+      "contraseña": "123"
     }
   ]
 }

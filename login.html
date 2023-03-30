@@ -37,10 +37,19 @@
       <div class="login">
           <div class="form__container--login">
             <h1 class="login__titulo">Iniciar Sesión</h1>
-            <form action="" class="form--login">
-              <input type="email" class="form__input--login" placeholder="Correo Electronico">
-              <input type="password" name="" id="" class="form__input--login" placeholder="Contraseña">
-              <button type="submit" class="form__button--login">Entrar</button>
+            <form action="" class="form--login" data-form>
+              <div class="input__container">
+                <input type="email" class="form__input--login" placeholder="Correo Electronico" data-tipo="correo" required data-correo>
+                <span class="form__message--invalid"></span>
+              </div>
+              <div class="input__container">
+                <input type="password" class="form__input--login" placeholder="Contraseña" data-tipo="contraseña" required data-contraseña>
+                <span class="form__message--invalid"></span>
+              </div>
+              <div class="input__container">
+                <button type="submit" class="form__button--login" data-button>Entrar</button>
+                <span class="form__message--invalid invalid"></span>
+              </div>
             </form>
           </div>
       </div>
@@ -72,6 +81,7 @@
       <p class="copyright__text">Copyright &copy; 2023 <a class="copyright__link" href="https://github.com/Carlosedm97/" target="_blank" rel="noopener">Carlos López</a></p>
     </div>
   </footer>
+  <script src="JS/validarLogin.js" type="module"></script>
 </body>
 
 </html>

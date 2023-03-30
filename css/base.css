@@ -1,6 +1,7 @@
 :root {
     --primary-color:#2A7AE4;
     --padding-left-rigtht: 0 11% 0 11%;
+    --warning-color: #df2525;
 }
 
 body {

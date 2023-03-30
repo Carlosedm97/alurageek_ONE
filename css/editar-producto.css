@@ -19,7 +19,7 @@
 .galeria__titulo {
     font-size: 32px;
     font-weight: 700;
-    color:#464646;    ;
+    color:#464646; 
 }
 
 .galeria__todos {
@@ -61,6 +61,10 @@
     top:10px;
     right: 20px;
     cursor: pointer;
+}
+
+.fa-pen:hover {
+    color: #00F200;
 }
 
 .fa-trash {
