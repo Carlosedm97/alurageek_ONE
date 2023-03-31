@@ -47,6 +47,10 @@
     height: 250px;
 }
 
+.oculto {
+    display: none;
+}
+
 .imagen__container {
     position: relative;
     display: inline-block;

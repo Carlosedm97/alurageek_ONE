@@ -28,3 +28,29 @@ productRequest.listarProductos().then((data) => {
         starwars.appendChild(nuevoProducto);
     })
 }).catch((error) => error);
+
+const consolas = document.querySelector('[data-consolas]');
+
+productRequest.listarProductos().then((data) => {
+    const categoria = 'Consolas';
+    const productos = data.filter(producto => producto.categoria === categoria);
+
+    const primerosProductos = productos.slice(0, 6);
+    primerosProductos.forEach(producto => {
+        const nuevoProducto = mostrarProducto(producto.imagen, producto.categoria, producto.nombre, producto.precio, producto.descripcion);
+        consolas.appendChild(nuevoProducto);
+    })
+}).catch((error) => error);
+
+const diversos = document.querySelector('[data-diversos]');
+
+productRequest.listarProductos().then((data) => {
+    const categoria = 'Diversos';
+    const productos = data.filter(producto => producto.categoria === categoria);
+
+    const primerosProductos = productos.slice(0, 6);
+    primerosProductos.forEach(producto => {
+        const nuevoProducto = mostrarProducto(producto.imagen, producto.categoria, producto.nombre, producto.precio, producto.descripcion);
+        diversos.appendChild(nuevoProducto);
+    })
+}).catch((error) => error);

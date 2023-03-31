@@ -26,6 +26,7 @@
     border-radius: 20px;
     color:#A2A2A2;
     font-weight: 400;
+    outline: none;
 }
 
 .busqueda__button {
