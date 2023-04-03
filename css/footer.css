@@ -38,11 +38,18 @@
 .form__input {
     padding: 18px 25px;
     border: none;
+    outline: none;
+}
+.form__input--container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .form__input--textarea {
     padding: 18px 25px;
     resize: none;
+    outline: none;
 }
 
 .form__submit {
@@ -52,6 +59,10 @@
     max-width: 180px;
     cursor: pointer;
     border: none;
+}
+
+.mailto {
+    display: none;
 }
 
 .footer__copyright {
@@ -65,3 +76,12 @@
 .copyright__link {
     color: var(--primary-color);
 }
+
+.form__message--invalid {
+    color: var(--warning-color);
+}
+
+.form__input--invalid {
+    border: 1px solid var(--warning-color);
+}
+

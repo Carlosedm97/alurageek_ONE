@@ -53,6 +53,6 @@ form.addEventListener('submit', (event) => {
     const descripcion = document.querySelector('[data-descripcion]').value;
 
     productRequest.actualizarProducto(imagen, categoria, nombre, precio, descripcion, id).then(() =>{
-        window.location.href = '/productos.html';
+        window.location.href = '/productos-admin.html';
     })
 })

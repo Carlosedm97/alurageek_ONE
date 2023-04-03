@@ -60,7 +60,7 @@ form.addEventListener('submit', (event) => {
         data.forEach(({usuario, contraseña}) => {
             if (usuarioIn == usuario) {
                 if ( contraseñaIn == contraseña) {
-                    window.location.href = '/productos.html';
+                    window.location.href = '/productos-admin.html';
                 } else {
                     mensajeDeError.textContent = '* Contraseña incorrecta.';
                 }

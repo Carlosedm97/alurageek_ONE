@@ -13,7 +13,7 @@ formulario.addEventListener('submit', (event) => {
     productRequest
     .crearProducto(imagen, categoria, nombre, precio, descripcion)
     .then(() => {
-        window.location.href = '/productos.html';
+        window.location.href = '/productos-admin.html';
     })
     .catch((error) => console.log(error));
 })

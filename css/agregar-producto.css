@@ -32,15 +32,23 @@
     grid-auto-columns: 100%;
 }
 
+.form__input--container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .form__input--agregar {
     padding: 18px 25px;
     border: none;
+    outline: none;
 }
 
 .form__textarea--agregar {
     resize: none;
     padding: 18px 25px;
     border: none;
+    outline: none;
 }
 
 .form__button--agregar {
@@ -49,4 +57,12 @@
     color: #F5F5F5;
     cursor: pointer;
     border: none;
+}
+
+.form__message--invalid {
+    color: var(--warning-color);
+}
+
+.form__input--invalid {
+    border: 1px solid var(--warning-color);
 }

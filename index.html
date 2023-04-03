@@ -42,7 +42,7 @@
           <h1 class="hero__titulo">AluraGeek</h1>
           <p class="hero__parrafo">Productos seleccionados con 33% de descuento</p>
           <div class="hero__button">
-            <a class="hero__link" href="">Ver consolas</a>
+            <a class="hero__link" href="consolas.html">Ver consolas</a>
           </div>
         </div>
     </section>
@@ -90,10 +90,16 @@
       </div>
       <div class="footer__form">
         <h3 class="form__titulo">Hable con nosotros</h3>
-        <form class="form" action="">
-          <input class="form__input" type="text" placeholder="Nombre">
-          <textarea class="form__input form__input--textarea" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje"></textarea>
+        <form class="form">
+          <div class="form__input--container">
+            <input class="form__input" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre">
+            <span class="form__message--invalid"></span>
+          </div>
+          <div class="form__input--container">
+            <textarea class="form__input form__input--textarea" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje" maxlength="120" required data-tipo="mensaje"></textarea>
+          </div>
           <button type="submit" class="form__submit">Enviar mensaje</button>
+          <a class="mailto" href="mailto:carlosedm97@gmail.com">mail</a>
         </form>
       </div>
     </div>
@@ -102,5 +108,6 @@
     </div>
   </footer>
   <script src="JS/listarCategorias.js" type="module"></script>
+  <script src="JS/validarContacto.js"></script>
 </body>
 </html>
