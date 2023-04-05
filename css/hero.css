@@ -32,3 +32,9 @@
     padding: 16px;
     background-color: var(--primary-color);
 }
+
+@media screen and (max-width: 768px) {
+    .hero__container {
+        padding: 150px 4% 30px 4%;
+    }
+}

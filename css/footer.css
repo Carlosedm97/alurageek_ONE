@@ -7,8 +7,15 @@
     background-color:#EAF2FD;
     padding: 64px 152px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    gap: 16px;
+}
+
+.footer__info {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .menu__list {
@@ -32,7 +39,7 @@
 .form {
     display: grid;
     gap: 16px;
-    width: 560px;
+    width: 430px;
 }
 
 .form__input {
@@ -85,3 +92,27 @@
     border: 1px solid var(--warning-color);
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 64px 4%;
+    }
+    .footer__info {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__info {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        width: 360px;
+    }
+}
