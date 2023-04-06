@@ -55,3 +55,9 @@
 .form__input--invalid {
     border: 1px solid var(--warning-color);
 }
+
+@media screen and (max-width: 425px) {
+    .form__container--login {
+        width: 275px;
+    }
+}

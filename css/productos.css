@@ -19,7 +19,7 @@
 .galeria__titulo {
     font-size: 32px;
     font-weight: 700;
-    color:#464646;    ;
+    color:#464646;
 }
 
 .galeria__todos {
@@ -32,7 +32,7 @@
     font-weight: 700;
 }
 
-.productos{
+.productos {
     display: flex;
     flex-wrap: nowrap;
     gap: 16px;

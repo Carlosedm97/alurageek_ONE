@@ -5,9 +5,7 @@ const crearNuevoProducto = (imagen, categoria, nombre, precio, descripcion) => {
   producto.classList.add('producto')
 
   const contenido = 
-      `<div class="imagen__container">
-        <img class="producto__imagen" src="${imagen}" alt="">
-      </div>
+      `<img class="producto__imagen" src="${imagen}" alt="">
       <h3 class="producto__titulo">${nombre}</h3>
       <p class="producto__precio">${precio}</p>
       <p class="producto__descripcion">${descripcion}</p>`

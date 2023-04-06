@@ -1,5 +1,5 @@
 .galeria__container {
-    padding: 64px 152px;
+    padding: 64px 10%;
     display: flex;
     flex-direction: column;
     gap: 64px;
@@ -36,24 +36,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 56px;
+    gap: 56px 16px
 }
 
 .producto {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 182px;
-    height: 250px;
+    width: 15.66%;
+    position: relative;
 }
 
 .oculto {
     display: none;
-}
-
-.imagen__container {
-    position: relative;
-    display: inline-block;
 }
 
 .fa-pen, .fa-trash {
@@ -101,4 +96,18 @@
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .galeria__container {
+        padding: 64px 4%;
+    }
+
+    .productos {
+        gap: 56px 16px;
+    }
+
+    .producto {
+        width: 23%;
+    }
 }

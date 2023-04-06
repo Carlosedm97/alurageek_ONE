@@ -5,11 +5,9 @@ const crearNuevoProducto = (imagen, categoria, nombre, precio, descripcion, id) 
   producto.classList.add('producto')
 
   const contenido = 
-      `<div class="imagen__container">
-        <img class="producto__imagen" src="${imagen}" alt="">
-        <i class="fa-solid fa-trash" id=${id}></i>
-        <a href="editar-producto.html?id=${id}"><i class="fa-sharp fa-solid fa-pen"></i></a>
-      </div>
+      `<img class="producto__imagen" src="${imagen}" alt="">
+      <i class="fa-solid fa-trash" id=${id}></i>
+      <a href="editar-producto.html?id=${id}"><i class="fa-sharp fa-solid fa-pen"></i></a>
       <h3 class="producto__titulo">${nombre}</h3>
       <p class="producto__precio">${precio}</p>
       <p class="producto__descripcion">${descripcion}</p>`
