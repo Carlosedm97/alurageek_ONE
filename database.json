@@ -132,17 +132,17 @@
       "imagen": "img/diverso-5.png",
       "categoria": "Diversos",
       "nombre": "Gafas VR",
-      "precio": "800000",
+      "precio": "100000",
       "descripcion": "Gafas de realidad virtual.",
       "id": "25669c61-ead8-4223-9c2c-c6062fca6880"
     },
     {
-      "imagen": "img/diverso-6.png",
+      "imagen": "img/diverso-3.png",
       "categoria": "Diversos",
-      "nombre": "Peluche de Pikachu",
-      "precio": "60000",
-      "descripcion": "Peluche de Pikachu.",
-      "id": "f676e3f8-45da-440e-8868-c0b12f8ce5e9"
+      "nombre": "Producto prueba",
+      "precio": "000000",
+      "descripcion": "Ninguna, ninguna",
+      "id": "fa95ffa0-bd90-441e-9fb1-46a98eb1803f"
     }
   ],
   "perfil": [

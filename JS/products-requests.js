@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/producto'
+const url = 'https://carlosedm97.github.io/alurageek_ONE/database.json'
 
 const listarProductos = () => fetch(url).then((respuesta) => respuesta.json());
 
