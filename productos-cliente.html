@@ -43,6 +43,40 @@
       </div>
     </section>
   </main>
+  <footer class="footer__container">
+    <div class="footer">
+      <div class="footer__info">
+        <img class="footer__logo" src="img/logo-alurageek.png" alt="Logo AluraGeek">
+        <div class="footer__menu">
+          <ul class="menu__list">
+            <li class="list__item"><a href="">Quienes somos</a></li>
+            <li class="list__item"><a href="">Politica de privacidad</a></li>
+            <li class="list__item"><a href="">Programa de fidelidad</a></li>
+            <li class="list__item"><a href="">Nuestras Tiendas</a></li>
+            <li class="list__item"><a href="">Quiero ser franquiciado</a></li>
+            <li class="list__item"><a href="">Anúncie aquí</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__form">
+        <h3 class="form__titulo">Hable con nosotros</h3>
+        <form class="form">
+          <div class="form__input--container">
+            <input class="form__input" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre">
+            <span class="form__message--invalid"></span>
+          </div>
+          <div class="form__input--container">
+            <textarea class="form__input form__input--textarea" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje" maxlength="120" required data-tipo="mensaje"></textarea>
+          </div>
+          <button type="submit" class="form__submit">Enviar mensaje</button>
+          <a class="mailto" href="mailto:carlosedm97@gmail.com">mail</a>
+        </form>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <p class="copyright__text">Copyright &copy; 2023 <a class="copyright__link" href="https://github.com/Carlosedm97/" target="_blank" rel="noopener">Carlos López</a></p>
+    </div>
+  </footer>
   <script src="JS/listarProductosCliente.js" type="module"></script>
   <script src="JS/buscarProducto.js" type="module"></script>
 </body>
