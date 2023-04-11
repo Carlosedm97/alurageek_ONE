@@ -20,6 +20,7 @@ const crearNuevoProducto = (imagen, categoria, nombre, precio, descripcion, id) 
       .eliminarProducto(id)
       .then((response) => {
           response;
+          location.reload();
       })
       .catch((error) => {
           error;
