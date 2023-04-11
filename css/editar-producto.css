@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 15.66%;
+    width: 15.4%;
     position: relative;
 }
 
@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 1024px) {
     .producto {
-        width: 18.5%;
+        width: 23.5%;
     }
 
     .categoria__container {
@@ -121,7 +121,7 @@
     }
 
     .producto {
-        width: 23%;
+        width: 23.3%;
     }
 }
 

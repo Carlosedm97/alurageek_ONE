@@ -41,7 +41,7 @@
 .producto {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 15.4%;
     gap: 8px;
 }
 
@@ -87,7 +87,7 @@
     }
 
     .producto {
-        width: 23%;
+        width: 23.9%;
     }
 }
 
@@ -107,6 +107,6 @@
     }
 
     .producto {
-        width: 47.4%;
+        width: 47.7%;
     }
 }
