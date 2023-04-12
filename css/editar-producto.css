@@ -131,7 +131,7 @@
     }
 
     .producto {
-        width: 47.8%;
+        width: 45%;
     }
 }
 
@@ -140,9 +140,9 @@
         flex-wrap: wrap;
     }
 
-    .producto {
-        width: 30%;
-    }
+    /* .producto {
+        width: 47.4%;
+    } */
 }
 
 /* @media screen and (max-width: 768px) {
